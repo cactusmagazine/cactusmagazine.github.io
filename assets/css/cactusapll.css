@@ -254,7 +254,7 @@ flex-basis: auto;
 margin-top: 5px;
 margin: 20px;
 position: relative;
-font-family: Brush Script MT, Brush Script Std, cursive;
+font-family: initial;
 }
 
 .article-info {
