@@ -1,276 +1,289 @@
-<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/cactusintro.css">
-        <title>
-            Document
-        </title>
+body{
+  background-color: rgb(228, 228, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.7;
+  color: aliceblue;
 
-    </head>
+}
+html, body {
+ margin: 0;
+ padding: 0;
+}
+*,
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-    <body>
-        <header class="header">
-            <div class="container">
-                <div class="header_inner">
-                  <div class="cube">
-                    <img src="../assets/images/cactus5.jpg"  width="80px" >
-              
-                  </div>
-                    <div class="header_logo">CACTUS</div>
-                    <nav class="nav">
-                        <a href="cactushistor.html" class="nav_link" href="#">Истории</a>
-                        
-                        <a href="cactusprog.html" class="nav_link" href="#">О проекте</a>
-                        <a href="https://forms.gle/v9xccnHuh7GYSWsT9" class="nav_link" href="#">Подать заявку</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
 
-        <div class="cube">
-          <img src="../assets/images/cactus3.jpg"  width="20%" >
-    
-        </div>
-        
-        <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll.html">
-                <figure class="">
-                  <img src="../assets/images/apll1.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    Письмо редактора
-                  </h2>
-                  <p class="article-content">
-                    Поверить не могу, что мы запускаем наш первый выпуск! Наверное, есть что-то особенное и в том, что мы делаем это именно в феврале- в месяц, когда ты чувствуешь особое желание жить и творить в ожидании пришествия весны.
-                  </p>
-                  <footer class="article-info">
-                    <span>Амина Кадырова</span>
-                    <span>12.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          </main>
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll2.html">
-                <figure class="">
-                  <img src="../assets/images/apll2.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    Любить: где?
-                  </h2>
-                  <p class="article-content">
-                    Февраль-время любви. Если дело дошло до свидания,а идей о том, куда сходить нет, то этот теплый и романтичный гайд как раз для тебя. О лучших местах Москвы для запоминающегося празднования ДСВ рассказывает рассказывает Полина Семина.
-                    
-
-                    
-                  </p>
-                  <footer class="article-info">
-                    <span>Сёмина Полина</span>
-                    <span>11.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          </main>
-
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll3.html">
-                <figure class="">
-                  <img src="../assets/images/apll3.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    За общим столом.
-                  </h2>
-                  <p class="article-content">
-                    Все еще считаешь, что настолки- пережиток прошлого? Уверены, что интервью с Николаем Лазаревым поможет тебе взглянуть на них по-новому. 
-                     
-                  </p>
-                 
-                  <footer class="article-info">
-                    <span>Лазарев Николай</span>
-                    <span>10.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          </main>
-
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll4.html">
-                <figure class="">
-                  <img src="../assets/images/apll4.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    «Кадровый резерв» или как стать парламентарием в 20?
-                  </h2>
-                  <p class="article-content">
-                    Многие студенты мечтают о политической карьере в российском парламенте, однако зачастую молодым людям кажется, что эта цель вовсе не осуществима. В этой статье Вся правда о кадровом резерве и возможностях, предлагаемых госудраством молодежи в 2023 году.
-                  
-                  </p>
-                  
-                  <footer class="article-info">
-                    <span>Воробьёва Кристина</span>
-                    <span>10.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-
-              
-    
-          
-              
-          </main>
-
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll5.html">
-                <figure class="">
-                  <img src="../assets/images/apll5.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    ДСВ: а оно нам надо?
-                  </h2>
-                  <p class="article-content">
-                    У наших сограждан всегда сохранялось недоверие к нетрадиционным праздникам. Вспомним тот же хэллоуин, который то хотят запретить, то просто бойкотировать. Не менее скептически мы смотрим и на 14 февраля, на день всех влюблённых, но почему?
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  
+  background-size: cover;
 
 
-                  </p>
-                  <footer class="article-info">
-                    <span>Петраков Кирилл </span>
-                    <span>10.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          </main>
+}
 
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll6.html">
-                <figure class="">
-                  <img src="../assets/images/apll6.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    Что день грядущий мне готовит?
-                  </h2>
-                  <p class="article-content">
-                    -Петя Шелудяков делится своим опытом и объясняет, как правильно гадать на картах Таро. Главные советы начинающим тарологам.
-                  </p>
-                  <footer class="article-info">
-                    <span> Шелудяков Петя</span>
-                    <span>09.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          </main>
-          <main class="main columns">
-            <section class="column main-column">
-              <a class="article first-article" href="cactusapll7.html">
-                <figure class="">
-                  <img src="../assets/images/apll7.png" alt="" width="40%">
-                </figure>
-                <div class="article-body">
-                  <h2 class="article-title">
-                    О безусловной любви…
-                  </h2>
-                  <p class="article-content">
-                    Арина Трегубова о создании социального проекта, направленного на помощь женам военнослужащих.
-                  </p>
-                  <footer class="article-info">
-                    <span>Трегубова Арина </span>
-                    <span>09.02.2023</span>
-                  </footer>
-                </div>
-              </a>
-          
-              
-          
-        
-        <div class="intro">
-            
-                <div class="container">
-                    <div class="intro_iner">
-                        
-                        <h1 class="intro_title"></h1>
-                    </div>
-                   
-                 
-                </div>
-        </div>
-        
-           
+.intro_inner{
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.intro_title{
+  color: rgb(0, 0, 0);
 
-    </body>
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.1;
+}
 
-</html>
+.header {
+  background-color:rgb(255, 255, 255);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding-top: 30px ;
+
+}
+
+.header_inner{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  z-index: 9999;
+  position: relative;
+  right: 80%;
+
+}
+.cube{
+  width: 30%;
+  z-index: 99;
+  position: relative;
+  top: 0px; 
+  
+  right: 170px;
+  }
+
+.nav {
+
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.nav_link {
+  
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.2s linear;
+  position: relative;
+}
+.nav_link:after{
+ content:"";
+ display: block;
+ width: 100%;
+ height:3px;
+ display: none;
+ background-color: rgb(0, 0, 0);
+ opacity: 0;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ z-index: 1;
+ transition: opacity 0.2s linear;
+
+}
+
+.nav_link:hover{
+  color: rgb(0, 0, 0);
+}
+
+.nav_link:hover:after{
+  display: block;
+  opacity: 1;
+}
 
 
 
 
 
-<!doctype html>
-
-<html class="no-js" lang="en">
 
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-   
-	
-    <link rel="stylesheet" href="assets/css/right-nav-style.css">
-    
-</head>
 
-<body>
-    
-    <input type="checkbox" id="nav-toggle" hidden>
-    
-    <nav class="nav">
-        
-        <label for="nav-toggle" class="nav-toggle" onclick></label>
-       
-        <h2 class="logo"> 
-            <a href="#1">CACTUS</a> 
-        </h2>
-        <ul>
-            <li><a href="cactushistor.html">Истории</a>
-            <li><a href="cactusprog.html">О проекте</a>
-            <li><a href="https://forms.gle/v9xccnHuh7GYSWsT9">Подать заявку</a>
-            <li><a href="#6"></a>
-            <li><a href="#4">Статьи :</a>
-            <li><a href="cactusapll.html">Общество</a>
-            <li><a href="#6">Отношения</a>
-            <li><a href="#7">Твоими глазами</a> 
-            <li><a href="#8">Литература</a>
-            <li><a href="#6">Мнение</a>
-              <li><a href="#6"></a>
-                <li><a href="cactusaud.html">Плейлисты</a>
-        </ul>
-    </nav>
-   
-    
-</body>
-</html>
+
+
+
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+
+
+
+
+a {
+text-decoration: none;
+transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+div, h2, p, figure {
+margin: 0;
+padding: 0;
+}
+
+.header {
+color: white;
+padding: 40px 0 20px;
+text-align: center;
+}
+
+.header h1 {
+font-size: 40px;
+font-weight: bold;
+}
+
+.header h2 a {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: white;
+font-size: 20px;
+opacity: 0.5;
+}
+
+.header h2 a:hover {
+border-bottom-color: white;
+opacity: 1;
+}
+
+.main {
+margin: 120px auto;
+max-width: 1040px;
+padding: 10px;
+
+
+}
+
+
+
+.article {
+background: white;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+color: #666;
+display: flex;
+flex: 1;
+flex-direction: column;
+flex-basis: auto;
+margin: 0px;
+}
+
+.article:hover,
+.article:focus {
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+color: #444;
+}
+
+.article-image {
+background: #eee;
+display: block;
+position: relative;
+width: 30%;
+
+}
+
+
+
+
+
+.article-body {
+display: flex;
+flex: 1;
+flex-basis: auto;
+flex-direction: column;
+padding: 0px;
+}
+
+.article-title {
+color: #333;
+flex-shrink: 0;
+font-size: 1.4em;
+font-weight: 700;
+line-height: 1.2;
+}
+
+.article-content {
+   width: 140%;
+  flex: 1;
+flex-basis: auto;
+margin-top: 5px;
+margin: 10px;
+right: 50%;
+position: relative;
+
+}
+
+.article-info {
+display: flex;
+font-size: 0.85em;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+
+
+@media screen and (min-width: 10px) {
+.first-article {
+  flex-direction: row;
+}
+
+.first-article .article-body {
+  flex: 1;
+}
+
+.first-article .article-image {
+  height: 300px;
+  order: 2;
+  padding-top: 0;
+  width: 400px;
+}
+
+.main-column {
+  flex: 3;
+}
+
+.nested-column {
+  flex: 2;
+}
+}
