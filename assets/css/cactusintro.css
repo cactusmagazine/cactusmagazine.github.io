@@ -244,12 +244,12 @@ line-height: 1.2;
 }
 
 .article-content {
-    width: 160%;
+    width: 140%;
   flex: 1;
 flex-basis: auto;
 margin-top: 5px;
 margin: 10px;
-right: 80%;
+right: 50%;
 position: relative;
 }
 
