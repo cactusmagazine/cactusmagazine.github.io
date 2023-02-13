@@ -252,6 +252,8 @@ right: 40%;
 flex-basis: auto;
 margin-top: 5px;
 margin: 20px;
+position: relative;
+top: 40px;
 }
 
 .article-info {
