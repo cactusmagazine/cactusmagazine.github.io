@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5 {
   width: 30%;
   z-index: 99;
   position: relative;
-  top: 20px; 
+  top: 0px; 
   
   right: 5px;
   }
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5 {
     max-width: 500px;
     z-index: 99;
     position: relative ;
-    top: 100px; 
+    top: 150px; 
     z-index: 100;
     left: 40%;
     
