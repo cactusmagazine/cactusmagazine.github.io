@@ -4,6 +4,8 @@ body{
   font-size: 20px;
   line-height: 1.7;
   color: aliceblue;
+  
+  
 
 }
 html, body {
@@ -52,6 +54,7 @@ h1,h2,h3,h4,h5 {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.1;
+  
 }
 
 .header {
@@ -89,6 +92,15 @@ h1,h2,h3,h4,h5 {
   
   right: 5px;
   }
+  .cub{
+    width: 40%;
+    z-index: 99;
+    position: relative ;
+    top: 100px; 
+    z-index: 100;
+    left: 40%;
+    
+    }
 
 .nav {
 
@@ -219,7 +231,7 @@ color: #444;
 background: #eee;
 display: block;
 position: relative;
-width: 30%;
+width: 0%;
 
 }
 
@@ -241,18 +253,18 @@ flex-shrink: 0;
 font-size: 1.4em;
 font-weight: 700;
 line-height: 1.2;
- font-family: Impact, fantasy;
+font-family: initial;
 }
 
 .article-content {
-   width: 140%;
+   width: 80%;
   flex: 1;
 flex-basis: auto;
 margin-top: 5px;
 margin: 10px;
-right: 45%;
+right: 0%;
 position: relative;
-  font-family: initial;
+font-family: initial;
 
 }
 
@@ -261,6 +273,7 @@ display: flex;
 font-size: 0.85em;
 justify-content: space-between;
 margin-top: 10px;
+font-family: initial;
 }
 
 
