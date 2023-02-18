@@ -89,6 +89,16 @@ h1,h2,h3,h4,h5 {
   
   right: 170px;
   }
+  .cub{
+    width: 80%;
+    max-width: 500px;
+    z-index: 99;
+    position: relative ;
+    top: 100px; 
+    z-index: 100;
+    left: 40%;
+    
+    }
 
 .nav {
 
@@ -243,8 +253,8 @@ font-weight: 700;
 line-height: 1.2;
 margin: 30px;
 position: relative;
-right: 60%;
-font-family: Impact, fantasy;
+right: 50%;
+font-family: initial;
 }
 
 .article-content {
@@ -262,6 +272,7 @@ display: flex;
 font-size: 0.85em;
 justify-content: space-between;
 margin-top: 10px;
+font-family: initial;
 }
 
 
