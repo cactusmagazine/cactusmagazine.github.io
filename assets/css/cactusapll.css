@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5 {
   color: rgb(0, 0, 0);
   z-index: 9999;
   position: relative;
-  right: 80%;
+  right: 45%;
 
 }
 .cube{
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5 {
   position: relative;
   top: 0px; 
   
-  right: 170px;
+  right: 5px;
   }
   .cub{
     width: 80%;
