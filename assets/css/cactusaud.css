@@ -242,6 +242,7 @@ flex-shrink: 0;
 font-size: 1.4em;
 font-weight: 700;
 line-height: 1.2;
+font-family: 'Playfair Display', serif;
 }
 
 .article-content {
@@ -250,6 +251,7 @@ line-height: 1.2;
 flex-basis: auto;
 margin-top: 5px;
 margin: 0px;
+font-family: 'Playfair Display', serif;
 }
 
 .article-info {
@@ -257,6 +259,7 @@ display: flex;
 font-size: 0.85em;
 justify-content: space-between;
 margin-top: 10px;
+font-family: 'Playfair Display', serif;
 }
 
 
